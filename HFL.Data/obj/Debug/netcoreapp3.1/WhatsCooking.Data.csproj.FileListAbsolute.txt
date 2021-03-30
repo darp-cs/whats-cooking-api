@@ -1,0 +1,9 @@
+C:\Users\Ajpic\source\repos\WhatsCooking.API\HFL.Data\bin\Debug\netcoreapp3.1\WhatsCooking.Data.deps.json
+C:\Users\Ajpic\source\repos\WhatsCooking.API\HFL.Data\bin\Debug\netcoreapp3.1\WhatsCooking.Data.dll
+C:\Users\Ajpic\source\repos\WhatsCooking.API\HFL.Data\obj\Debug\netcoreapp3.1\WhatsCooking.Data.AssemblyInfoInputs.cache
+C:\Users\Ajpic\source\repos\WhatsCooking.API\HFL.Data\obj\Debug\netcoreapp3.1\WhatsCooking.Data.AssemblyInfo.cs
+C:\Users\Ajpic\source\repos\WhatsCooking.API\HFL.Data\obj\Debug\netcoreapp3.1\WhatsCooking.Data.csprojAssemblyReference.cache
+C:\Users\Ajpic\source\repos\WhatsCooking.API\HFL.Data\bin\Debug\netcoreapp3.1\WhatsCooking.Data.pdb
+C:\Users\Ajpic\source\repos\WhatsCooking.API\HFL.Data\obj\Debug\netcoreapp3.1\WhatsCooking.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ajpic\source\repos\WhatsCooking.API\HFL.Data\obj\Debug\netcoreapp3.1\WhatsCooking.Data.dll
+C:\Users\Ajpic\source\repos\WhatsCooking.API\HFL.Data\obj\Debug\netcoreapp3.1\WhatsCooking.Data.pdb
