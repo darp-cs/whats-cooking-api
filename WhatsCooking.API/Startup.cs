@@ -17,7 +17,13 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using WhatsCooking.Data.Entities;
+using WhatsCooking.Data.Entities.Recipes;
+using WhatsCooking.Repo;
 using WhatsCooking.Repo.Context;
+using WhatsCooking.Service.Contracts.Facade;
+using WhatsCooking.Service.Contracts.Recipe;
+using WhatsCooking.Service.Services.Facade;
+using WhatsCooking.Service.Services.Recipe;
 
 namespace WhatsCooking.API
 {
@@ -40,9 +46,13 @@ namespace WhatsCooking.API
                 c.MapType<Guid>(() => new OpenApiSchema { Type = "string", Format = null });
             });
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
-
+            services.AddCors();
             // register services here
-
+            services.AddScoped<IRecipeService, RecipeService>();
+            // register repositories here
+            services.AddScoped<IRepository<User>, Repository<User>>();
+            services.AddScoped<IRepository<Ingredient>, Repository<Ingredient>>();
+            services.AddScoped<IRepository<Recipe>, Repository<Recipe>>();
             // identity
             services.AddIdentity<ApplicationUser, IdentityRole>()
            .AddEntityFrameworkStores<ApplicationDbContext>()

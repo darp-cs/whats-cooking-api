@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsCooking.API", "WhatsCooking.API\WhatsCooking.API.csproj", "{003B4BF8-599A-407C-A842-1DF4A825BF73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatsCooking.API", "WhatsCooking.API\WhatsCooking.API.csproj", "{003B4BF8-599A-407C-A842-1DF4A825BF73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsCooking.Data", "HFL.Data\WhatsCooking.Data.csproj", "{4B49F54B-AA53-4561-BAAA-116221F23010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatsCooking.Repo", "WhatsCooking.Repo\WhatsCooking.Repo.csproj", "{7BF8A2EF-1C0A-4B51-99BC-C0EE773750FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsCooking.Repo", "WhatsCooking.Repo\WhatsCooking.Repo.csproj", "{7BF8A2EF-1C0A-4B51-99BC-C0EE773750FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatsCooking.Service", "WhatsCooking.Service\WhatsCooking.Service.csproj", "{57FE74DF-4A24-4C2F-99A0-CFEF7559AD67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsCooking.Service", "WhatsCooking.Service\WhatsCooking.Service.csproj", "{57FE74DF-4A24-4C2F-99A0-CFEF7559AD67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatsCooking.Data", "WhatsCooking.Data\WhatsCooking.Data.csproj", "{7A2F3049-6DC4-4F1B-848E-917EBF28EEDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{003B4BF8-599A-407C-A842-1DF4A825BF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{003B4BF8-599A-407C-A842-1DF4A825BF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{003B4BF8-599A-407C-A842-1DF4A825BF73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B49F54B-AA53-4561-BAAA-116221F23010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B49F54B-AA53-4561-BAAA-116221F23010}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B49F54B-AA53-4561-BAAA-116221F23010}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B49F54B-AA53-4561-BAAA-116221F23010}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7BF8A2EF-1C0A-4B51-99BC-C0EE773750FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7BF8A2EF-1C0A-4B51-99BC-C0EE773750FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BF8A2EF-1C0A-4B51-99BC-C0EE773750FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{57FE74DF-4A24-4C2F-99A0-CFEF7559AD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57FE74DF-4A24-4C2F-99A0-CFEF7559AD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57FE74DF-4A24-4C2F-99A0-CFEF7559AD67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2F3049-6DC4-4F1B-848E-917EBF28EEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2F3049-6DC4-4F1B-848E-917EBF28EEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2F3049-6DC4-4F1B-848E-917EBF28EEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2F3049-6DC4-4F1B-848E-917EBF28EEDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

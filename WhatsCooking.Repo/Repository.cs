@@ -8,8 +8,6 @@ using WhatsCooking.Repo.Context;
 
 namespace WhatsCooking.Repo
 {
-   public class Repository : IRepository
-    {
         public class Repository<T> : IRepository<T> where T : class
         {
             private readonly ApplicationDbContext _db;
@@ -67,5 +65,4 @@ namespace WhatsCooking.Repo
             }
 
         }
-    }
 }

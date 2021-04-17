@@ -4,4 +4,12 @@ C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\obj\Debug\netcore
 C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\obj\Debug\netcoreapp3.1\WhatsCooking.Repo.AssemblyInfo.cs
 C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\obj\Debug\netcoreapp3.1\WhatsCooking.Repo.csprojAssemblyReference.cache
 C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\bin\Debug\netcoreapp3.1\WhatsCooking.Data.dll
+C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\bin\Debug\netcoreapp3.1\WhatsCooking.Repo.pdb
+C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\bin\Debug\netcoreapp3.1\WhatsCooking.Data.pdb
+C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\obj\Debug\netcoreapp3.1\WhatsCooking.Repo.csproj.CopyComplete
+C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\obj\Debug\netcoreapp3.1\WhatsCooking.Repo.dll
+C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\obj\Debug\netcoreapp3.1\WhatsCooking.Repo.pdb
+C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\bin\Debug\netcoreapp3.1\WhatsCooking.Repo.runtimeconfig.json
+C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\bin\Debug\netcoreapp3.1\WhatsCooking.Repo.runtimeconfig.dev.json
 C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\obj\Debug\netcoreapp3.1\WhatsCooking.Repo.csproj.CoreCompileInputs.cache
+C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.Repo\obj\Debug\netcoreapp3.1\WhatsCooking.Repo.genruntimeconfig.cache
