@@ -17,13 +17,12 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using WhatsCooking.Data.Entities;
-using WhatsCooking.Data.Entities.Recipes;
 using WhatsCooking.Repo;
 using WhatsCooking.Repo.Context;
-using WhatsCooking.Service.Contracts.Facade;
-using WhatsCooking.Service.Contracts.Recipe;
-using WhatsCooking.Service.Services.Facade;
-using WhatsCooking.Service.Services.Recipe;
+using WhatsCooking.Service.Contracts;
+using WhatsCooking.Service.Contracts.Account;
+using WhatsCooking.Service.Services;
+using WhatsCooking.Service.Services.Account;
 
 namespace WhatsCooking.API
 {
@@ -49,10 +48,16 @@ namespace WhatsCooking.API
             services.AddCors();
             // register services here
             services.AddScoped<IRecipeService, RecipeService>();
+            services.AddScoped<IUserRecipeService, UserRecipeService>();
+            services.AddScoped<IAccountService, AccountService>();
+            services.AddScoped<IUserIngredientService, UserIngredientService>();
+            services.AddScoped<IMapper, WhatsCooking.Service.Mapper.Mapper>();
             // register repositories here
             services.AddScoped<IRepository<User>, Repository<User>>();
-            services.AddScoped<IRepository<Ingredient>, Repository<Ingredient>>();
+            services.AddScoped<IRepository<UserRecipe>, Repository<UserRecipe>>();
             services.AddScoped<IRepository<Recipe>, Repository<Recipe>>();
+            services.AddScoped<IRepository<ApplicationUser>, Repository<ApplicationUser>>();
+            services.AddScoped<IRepository<UserIngredient>, Repository<UserIngredient>>();
             // identity
             services.AddIdentity<ApplicationUser, IdentityRole>()
            .AddEntityFrameworkStores<ApplicationDbContext>()

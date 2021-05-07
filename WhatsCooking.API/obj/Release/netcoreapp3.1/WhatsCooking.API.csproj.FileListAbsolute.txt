@@ -78,3 +78,5 @@ C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.API\obj\Release\netcor
 C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.API\obj\Release\netcoreapp3.1\WhatsCooking.API.dll
 C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.API\obj\Release\netcoreapp3.1\WhatsCooking.API.pdb
 C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.API\obj\Release\netcoreapp3.1\WhatsCooking.API.genruntimeconfig.cache
+C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.API\bin\Release\netcoreapp3.1\WhatsCooking.Service.dll
+C:\Users\Ajpic\source\repos\WhatsCooking.API\WhatsCooking.API\bin\Release\netcoreapp3.1\WhatsCooking.Service.pdb

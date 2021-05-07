@@ -3,7 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WhatsCooking.Service.Contracts.Recipe;
+using WhatsCooking.Service;
+using WhatsCooking.Service.Contracts;
 
 namespace WhatsCooking.API.Controllers
 {
@@ -17,5 +18,26 @@ namespace WhatsCooking.API.Controllers
         {
             _recipeService = recipeService;
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllRecipes()
+        {
+            return Ok(await _recipeService.GetAllRecipes());
+        }
+
+        [HttpGet("category/{name}")]
+        public async Task<IActionResult> GetRecipesByCategory(string name)
+        {
+            return Ok(await _recipeService.GetRecipesByCategory(name));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddRecipe(Recipe recipe)
+        {
+            return Ok(await _recipeService.AddOrUpdateRecipe(recipe));
+        }
+        
+
+
     }
 }

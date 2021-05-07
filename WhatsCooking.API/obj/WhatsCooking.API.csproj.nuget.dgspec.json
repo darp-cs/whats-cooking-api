@@ -357,7 +357,14 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Ajpic\\source\\repos\\WhatsCooking.API\\WhatsCooking.Data\\WhatsCooking.Data.csproj": {
+                "projectPath": "C:\\Users\\Ajpic\\source\\repos\\WhatsCooking.API\\WhatsCooking.Data\\WhatsCooking.Data.csproj"
+              },
+              "C:\\Users\\Ajpic\\source\\repos\\WhatsCooking.API\\WhatsCooking.Repo\\WhatsCooking.Repo.csproj": {
+                "projectPath": "C:\\Users\\Ajpic\\source\\repos\\WhatsCooking.API\\WhatsCooking.Repo\\WhatsCooking.Repo.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

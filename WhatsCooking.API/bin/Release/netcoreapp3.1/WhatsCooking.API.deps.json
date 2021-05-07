@@ -32,6 +32,7 @@
           "Swashbuckle.AspNetCore": "6.0.7",
           "WhatsCooking.Data": "1.0.0",
           "WhatsCooking.Repo": "1.0.0",
+          "WhatsCooking.Service": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies.Reference": "3.1.0.0",
@@ -1712,6 +1713,18 @@
         },
         "compile": {
           "WhatsCooking.Repo.dll": {}
+        }
+      },
+      "WhatsCooking.Service/1.0.0": {
+        "dependencies": {
+          "WhatsCooking.Data": "1.0.0",
+          "WhatsCooking.Repo": "1.0.0"
+        },
+        "runtime": {
+          "WhatsCooking.Service.dll": {}
+        },
+        "compile": {
+          "WhatsCooking.Service.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4255,6 +4268,11 @@
       "sha512": ""
     },
     "WhatsCooking.Repo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WhatsCooking.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

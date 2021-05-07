@@ -17,5 +17,10 @@ namespace WhatsCooking.Repo.Context
         {
             base.OnModelCreating(builder);
         }
+
+        public DbSet<Recipe> Recipes { get; set; }
+        public DbSet<User> UserAccounts { get; set; }
+        public DbSet<UserRecipe> UserRecipes { get; set; }
+        public DbSet<UserIngredient> UserIngredients {get; set;}
     }
 }

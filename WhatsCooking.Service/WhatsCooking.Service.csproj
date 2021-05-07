@@ -1,7 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WhatsCooking.Data\WhatsCooking.Data.csproj" />
+    <ProjectReference Include="..\WhatsCooking.Repo\WhatsCooking.Repo.csproj" />
+  </ItemGroup>
 
 </Project>
